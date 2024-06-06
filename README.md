@@ -16,7 +16,7 @@
 <ol>
     <li><strong>Pré-requisitos:</strong> Certifique-se de ter instalado o Java JDK 11 ou superior e um banco de dados compatível com a aplicação.</li>
     <li>Clone o repositório para sua máquina local usando o comando:
-        <pre><code>git clone &lt;link-do-repositorio&gt;</code></pre>
+        <pre><code>git clone https://github.com/mthaugusto/sea-care</code></pre>
     </li>
     <li>Acesse o diretório do projeto:
         <pre><code>cd sea-care</code></pre>

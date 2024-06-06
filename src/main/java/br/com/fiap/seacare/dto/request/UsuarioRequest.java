@@ -13,6 +13,7 @@ public record UsuarioRequest(
         @Max(value = 1, message = "O status do parceiro deve ser no máximo 1")
         Integer nivelPermissao,
 
+        @Pattern(regexp = "([0-9]{3}\\.){2}[0-9]{3}-[0-9]{2}", message = "Formato de CPF inválido")
         String cpf,
 
         @NotBlank(message = "O login não pode estar em branco")

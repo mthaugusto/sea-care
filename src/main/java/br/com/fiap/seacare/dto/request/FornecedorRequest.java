@@ -6,13 +6,13 @@ import jakarta.validation.constraints.Pattern;
 
 public record FornecedorRequest(
 
-        @NotNull(message = "O nome do parceiro é obrigatório")
         @NotBlank(message = "O nome do parceiro não pode estar em branco")
         String nomeFornecedor,
 
-        @NotNull(message = "O CNPJ do parceiro é obrigatório")
-        @Pattern(regexp = "\\d{2}.\\d{3}.\\d{3}/\\d{4}-\\d{2}", message = "Formato de CNPJ inválido")
+        @NotBlank(message = "O CNPJ do parceiro não pode estar em branco")
+        @Pattern(regexp = "\\d{2}\\.\\d{3}\\.\\d{3}/\\d{4}-\\d{2}", message = "Formato de CNPJ inválido")
         String cnpj,
+
         String telefone,
         String setor
 ) {

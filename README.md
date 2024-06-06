@@ -38,3 +38,17 @@
     <li><strong>Complete a importação:</strong> Depois de selecionar o arquivo, clique em "Import" para iniciar a importação.</li>
     <li><strong>Verifique as coleções:</strong> Após a importação, suas coleções de testes estarão disponíveis na aba "Collections" à esquerda. Você pode agora visualizar e executar os testes importados.</li>
 </ol>
+
+<h2>Swagger</h2>
+<p>Para testar a API, você pode utilizar o Swagger, que oferece uma interface gráfica para interagir com os endpoints da aplicação. Siga os passos abaixo para acessar o Swagger:</p>
+
+<ol>
+    <li>Certifique-se de que a aplicação está em execução localmente.</li>
+    <li>Abra um navegador da web e acesse o seguinte URL: <code>http://localhost/swagger-ui.html</code>.</li>
+    <li>A página do Swagger será exibida, mostrando todos os endpoints disponíveis na API.</li>
+    <li>Você pode clicar em cada endpoint para expandir e ver detalhes sobre os parâmetros necessários e o formato das respostas.</li>
+    <li>Para fazer uma solicitação, clique no endpoint desejado e depois no botão "Try it out". Preencha os parâmetros necessários e clique em "Execute" para ver a resposta da API.</li>
+</ol>
+
+<img src="https://github.com/mthaugusto/sea-care/blob/master/documentacao/swagger-print.png" alt="Swagger Print 1">
+<img src="https://github.com/mthaugusto/sea-care/blob/master/documentacao/swagger2-print.png" alt="Swagger Print 2">

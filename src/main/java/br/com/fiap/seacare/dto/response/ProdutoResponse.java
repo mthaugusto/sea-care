@@ -5,7 +5,7 @@ import lombok.Builder;
 public record ProdutoResponse(
         Long id,
         String nomeProduto,
-        String valorProduto,
+        Double valorProduto,
         String linkProduto,
         Long fornecedorId,
         Long categoriaId

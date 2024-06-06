@@ -1,6 +1,5 @@
 package br.com.fiap.seacare.entity;
 
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -22,10 +21,10 @@ public class Produto {
     private Long id;
 
     @Column(name="NM_PRODUTO")
-    private  String nomeProduto;
+    private String nomeProduto;
 
     @Column(name="VL_PRODUTO")
-    private String valorProduto;
+    private Double valorProduto;
 
     @Column(name="LINK")
     private String linkProduto;

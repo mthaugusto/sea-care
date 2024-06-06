@@ -9,7 +9,7 @@ public record ProdutoRequest(
         String nomeProduto,
 
         @NotBlank(message = "O valor do produto não pode estar em branco")
-        String valorProduto,
+        Double valorProduto,
 
         @NotBlank(message = "O link do produto não pode estar em branco")
         String linkProduto,
